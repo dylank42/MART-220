@@ -7,10 +7,18 @@ var orangeSpeed = 0;
 var lemonx = 260;
 var lemony = 140;
 
+//WEEK 4
+var myFont;
+
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(1000, 1000);
   orangeSpeed = random(1,5);
+
+  pick = loadImage("example/images/bounce1.jpeg");
+  pick2 = loadImage("example/images/bounce2.jpeg");
+
+  myFont = loadFont("example/fonts/BaksoSapi.otf");
 }
 
 function draw() {
@@ -19,6 +27,7 @@ function draw() {
   //TITLE
   fill(0)
   textSize(15)
+  textFont(myFont);
   text("Dylan Kidd",310,370)
   textSize(32)
   text("Favorite Food",20,50)
