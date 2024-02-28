@@ -187,7 +187,6 @@ function checkCollision(x,y,w,h, x2,y2,w2,h2)
 }
 
 function changeTime()
-
 {
     myTime--;
     if(myTime < 0)
