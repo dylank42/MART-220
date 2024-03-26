@@ -56,7 +56,7 @@ function draw() {
     //description
     textSize(10)
     text("move the zombie using wasd keys", 20, 70)
-    text("collect all the strawberries to win!", 20, 85)
+    text("collect all the strawberries to win! Collect 10 strawberries to win but if you have 0 you lose.", 20, 85)
     //time
     fill(200, 0, 0);
     textSize(25);
@@ -66,7 +66,7 @@ function draw() {
     textSize(24);
     text("Strawberries: " + score, 450, 50);
 
-    if (score === 1) {
+    if (score === 10) {
         fill(0,200,0);
         textSize(40);
         text("You win!", width / 2 - 50, height / 2);
