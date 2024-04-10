@@ -21,8 +21,6 @@ function draw() {
     textSize(15);
     text("The Space Project", -550, -200, 0);
 
-
-
     push();
     normalMaterial();
     translate(0, 0);
